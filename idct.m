@@ -9,19 +9,7 @@ function a = idct(b,n)
 %
 %   If Y is a matrix, the IDCT operation is applied to
 %   each column.
-%
-%   See also FFT, IFFT, DCT.
 
-%   Author(s): C. Thompson, 2-12-93
-%              S. Eddins, 10-26-94, revised
-%   Copyright 1988-2002 The MathWorks, Inc.
-%   $Revision: 1.7 $  $Date: 2002/04/15 01:11:58 $
-
-%   References: 
-%   1) A. K. Jain, "Fundamentals of Digital Image
-%      Processing", pp. 150-153.
-%   2) Wallace, "The JPEG Still Picture Compression Standard",
-%      Communications of the ACM, April 1991.
 
 if nargin == 0,
 	error('Not enough input arguments.');
