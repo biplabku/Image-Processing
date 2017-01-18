@@ -1,14 +1,6 @@
 function f = perform_wavortho_transf(f,Jmin,dir,options)
 
-% perform_wavortho_transf - compute orthogonal wavelet transform
-%
-%   fw = perform_wavortho_transf(f,Jmin,dir,options);
-%
-%   You can give the filter in options.h.
-%
-%   Works in arbitrary dimension.
-%
-%   Copyright (c) 2009 Gabriel Peyre
+
 
 options.null = 0;
 h = getoptions(options,'h', compute_wavelet_filter('Daubechies',4) );
